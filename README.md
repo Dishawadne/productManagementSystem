@@ -7,3 +7,7 @@ This project is a simple CRUD (Create, Read, Update, Delete) application built u
 - Database Configuration: Configured with RDBMS (Relational Database Management System) instead of in-memory database.
 - Annotation-based Configuration: Application configurations are done using annotations rather than XML.
 - JPA & Hibernate: Hibernate is used as the JPA provider for database interactions.
+
+  # Outputs:
+
+  (https://github.com/Dishawadne/productManagementSystem/tree/main/outputImages/Output 1 Post.png)
