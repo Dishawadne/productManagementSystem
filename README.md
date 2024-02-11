@@ -10,4 +10,4 @@ This project is a simple CRUD (Create, Read, Update, Delete) application built u
 
   # Outputs:
 
-  (https://github.com/Dishawadne/productManagementSystem/tree/main/outputImages/Output 1 Post.png)
+  (https://github.com/Dishawadne/productManagementSystem/tree/main/outputImages/Output1Post.png)
