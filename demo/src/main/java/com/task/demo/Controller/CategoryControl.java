@@ -26,17 +26,14 @@ public class CategoryControl {
     public Category createCategory(@RequestBody Category category)  {
     Long l=category.getId();
     category.setId(l);
-    
-
     return cs.createCategory(category);
     }
 
     @GetMapping
-    public ResponseEntity<List<Category>> getAllCategories() {
-        List<Category> categories = cs.getAllCategories();
-        return new ResponseEntity<>(categories, HttpStatus.OK);
-    }
-
+public Page<Category> getAllCategories(@RequestParam(defaultValue = "0") int page,
+            @RequestParam(defaultValue = "10") int size) {
+return repo.findAll(PageRequest.of(page, size));
+}
     @GetMapping("/{id}")
     public Category getCategoryById(@PathVariable(value = "id") Long id) {
         return cs.getCategoryById(id);
