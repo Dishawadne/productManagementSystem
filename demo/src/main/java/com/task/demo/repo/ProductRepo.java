@@ -8,7 +8,6 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface ProductRepo extends JpaRepository<Product,Long> {
 
-	Category saveAll(Category newCategory);
 
 
 }
