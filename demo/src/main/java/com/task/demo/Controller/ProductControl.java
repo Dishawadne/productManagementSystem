@@ -38,18 +38,10 @@ public class ProductControl {
     }
 
     @GetMapping
-    public ResponseEntity<List<Product>> getAllProducts() {
-        try {
-            List<Product> products = ps.getAllProducts();
-            return new ResponseEntity<>(products, HttpStatus.OK);
-        } catch (Exception e) {
-            // Log the exception
-            log.error("An error occurred while fetching products", e);
-
-            // Return an appropriate error response
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(null);
-        }
-    }
+    public Page<Product> getAllProducts(@RequestParam(defaultValue = "0") int page,
+            @RequestParam(defaultValue = "10") int size) {
+return repo1.findAll(PageRequest.of(page, size));
+}
 
     @GetMapping("/{id}")
     public ResponseEntity<Product> getProductById(@PathVariable(value = "id") Long id) {
