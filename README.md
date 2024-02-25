@@ -1,4 +1,4 @@
-# Spring Boot CRUD Application with JPA & Hibernate
+# Spring Boot CRUD Application with Hibernate with JPA
 This project is a simple CRUD (Create, Read, Update, Delete) application built using Spring Boot framework. It utilizes JPA (Java Persistence API) with Hibernate as the ORM (Object-Relational Mapping) framework for database operations. The application provides endpoints to perform CRUD operations on Category and Product entities.
 
 # Requirements
