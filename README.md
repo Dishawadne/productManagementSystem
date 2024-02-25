@@ -9,5 +9,13 @@ This project is a simple CRUD (Create, Read, Update, Delete) application built u
 - JPA & Hibernate: Hibernate is used as the JPA provider for database interactions.
 
   # Outputs:
-
-  (https://github.com/Dishawadne/productManagementSystem/tree/main/outputImages/Output 1 Post.png)
+  - Postman was used for testing the API endpoints. Screenshots of sample requests and responses are provided below:
+  
+![Sample Screenshot](https://github.com/Dishawadne/productManagementSystem/blob/main/outputImages/Output%201%20Post.png)
+![Sample Screenshot](https://github.com/Dishawadne/productManagementSystem/blob/main/outputImages/output2%20post.png)
+ ![Sample Screenshot](https://github.com/Dishawadne/productManagementSystem/blob/main/outputImages/outout%203%20post.png)
+![Sample Screenshot](https://github.com/Dishawadne/productManagementSystem/blob/main/outputImages/output%204%20GetByid.png)
+![Sample Screenshot](https://github.com/Dishawadne/productManagementSystem/blob/main/outputImages/output5%20get%20produts.png)
+![Sample Screenshot](https://github.com/Dishawadne/productManagementSystem/blob/main/outputImages/output6%20getCategory.png)
+![Sample Screenshot](https://github.com/Dishawadne/productManagementSystem/blob/main/outputImages/output7%20delete.png)
+![Sample Screenshot](https://github.com/Dishawadne/productManagementSystem/blob/main/outputImages/output%208%20delete2.png)
